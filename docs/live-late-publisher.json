@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "rexs_experiment_id": "d80e863e94c74603b8c9a2c84ec73a70",
+  "gpu_type": "A40",
+  "gpu_count": 2,
+  "physical_gpu_hosts": 1,
+  "middle_processes": 2,
+  "base_model": "Sloth Qwen3.5-2B SFT step 400",
+  "late_join_seconds": 8.547253608703613,
+  "a_successful_requests_during_join": 5,
+  "a_replica_ids": [
+    "02e050238e29489d90290db4231954c5",
+    "5a637d0869c045059369f8b4205f703d"
+  ],
+  "b_replica_ids": [
+    "02e050238e29489d90290db4231954c5",
+    "5a637d0869c045059369f8b4205f703d"
+  ],
+  "adapter_bytes": 87319247,
+  "discovery": "shared SQLite head -> Redis service registry",
+  "generation": "local LiteRegistry gateway",
+  "semantics": "immutable adapter versions; saved adapters, no optimizer steps"
+}
