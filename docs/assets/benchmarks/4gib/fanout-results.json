@@ -1,0 +1,4444 @@
+{
+  "topology": {
+    "origin": {
+      "url": "http://10.64.140.94:43377",
+      "version": "v1",
+      "bytes": 4294967296,
+      "sha256": "377276c375608d212d63ec45ebbe6df439e00d633b8cda47ea05cda4f4488197",
+      "source": "synthetic random bytes (not a model checkpoint)",
+      "host": "g3094"
+    },
+    "middles": [
+      {
+        "url": "http://10.64.140.94:45703",
+        "host": "g3094"
+      },
+      {
+        "url": "http://10.64.140.119:43141",
+        "host": "g3119"
+      },
+      {
+        "url": "http://10.64.140.97:44795",
+        "host": "g3097"
+      },
+      {
+        "url": "http://10.64.140.99:38005",
+        "host": "g3099"
+      }
+    ],
+    "clients": [
+      {
+        "url": "http://10.64.140.118:36759",
+        "host": "g3118"
+      },
+      {
+        "url": "http://10.64.140.119:40533",
+        "host": "g3119"
+      },
+      {
+        "url": "http://10.64.140.97:35559",
+        "host": "g3097"
+      },
+      {
+        "url": "http://10.64.140.99:45235",
+        "host": "g3099"
+      }
+    ],
+    "middle_placement": "gpu",
+    "assignment": "rotated round-robin, avoid same host"
+  },
+  "rounds": [
+    {
+      "middles": 1,
+      "clients": 1,
+      "transport": "http",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 3.109105348587036,
+      "aggregate_GiB_s": 1.2865437325299511,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683179.2602558,
+          "end": 1789683182.3693612,
+          "seconds": 3.109105348587036,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 1,
+      "transport": "ucxx",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 4.119210481643677,
+      "aggregate_GiB_s": 0.9710598712605459,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683185.3890822,
+          "end": 1789683189.5082927,
+          "seconds": 4.119210481643677,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 1,
+      "transport": "ucxx",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 1.4771356582641602,
+      "aggregate_GiB_s": 2.7079435647099306,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683192.37023,
+          "end": 1789683193.8473656,
+          "seconds": 1.4771356582641602,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 1,
+      "transport": "http",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 2.0522265434265137,
+      "aggregate_GiB_s": 1.9491025553745025,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683196.7154934,
+          "end": 1789683198.76772,
+          "seconds": 2.0522265434265137,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 1,
+      "transport": "http",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 2.751140832901001,
+      "aggregate_GiB_s": 1.453942289018375,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683201.635796,
+          "end": 1789683204.386937,
+          "seconds": 2.751140832901001,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 1,
+      "transport": "ucxx",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 1.4455931186676025,
+      "aggregate_GiB_s": 2.767030327099775,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683207.2805798,
+          "end": 1789683208.726173,
+          "seconds": 1.4455931186676025,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 1,
+      "transport": "ucxx",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 1.4447047710418701,
+      "aggregate_GiB_s": 2.768731771485285,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683211.5909183,
+          "end": 1789683213.035623,
+          "seconds": 1.4447047710418701,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 1,
+      "transport": "http",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 2.842421293258667,
+      "aggregate_GiB_s": 1.4072509270482694,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683215.9067945,
+          "end": 1789683218.7492158,
+          "seconds": 2.842421293258667,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 2,
+      "transport": "http",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 3.6830599308013916,
+      "aggregate_GiB_s": 2.1721069301903246,
+      "start_skew_s": 3.4809112548828125e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683221.6233284,
+          "end": 1789683224.3649344,
+          "seconds": 2.7416059970855713,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683221.6233633,
+          "end": 1789683225.3063884,
+          "seconds": 3.6830251216888428,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 2,
+      "transport": "ucxx",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 4.062143087387085,
+      "aggregate_GiB_s": 1.969403792013118,
+      "start_skew_s": 0.00032901763916015625,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683228.1782355,
+          "end": 1789683229.6160848,
+          "seconds": 1.4378492832183838,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683228.1785645,
+          "end": 1789683232.2403786,
+          "seconds": 4.061814069747925,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 2,
+      "transport": "ucxx",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 1.5673015117645264,
+      "aggregate_GiB_s": 5.104314606953516,
+      "start_skew_s": 7.3909759521484375e-06,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683235.1041882,
+          "end": 1789683236.5477097,
+          "seconds": 1.443521499633789,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683235.1041808,
+          "end": 1789683236.6714823,
+          "seconds": 1.5673015117645264,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 2,
+      "transport": "http",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 2.863058567047119,
+      "aggregate_GiB_s": 2.7942145829908687,
+      "start_skew_s": 0.00039696693420410156,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683239.539389,
+          "end": 1789683242.3347516,
+          "seconds": 2.795362710952759,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683239.538992,
+          "end": 1789683242.4020505,
+          "seconds": 2.863058567047119,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 2,
+      "transport": "http",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 3.1041245460510254,
+      "aggregate_GiB_s": 2.5772161784479173,
+      "start_skew_s": 0.0002040863037109375,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683245.2742305,
+          "end": 1789683248.0005062,
+          "seconds": 2.726275682449341,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683245.2744346,
+          "end": 1789683248.378355,
+          "seconds": 3.1039204597473145,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 2,
+      "transport": "ucxx",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 1.5637462139129639,
+      "aggregate_GiB_s": 5.1159196606344395,
+      "start_skew_s": 1.8358230590820312e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683251.3640947,
+          "end": 1789683252.8083646,
+          "seconds": 1.4442698955535889,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683251.3640764,
+          "end": 1789683252.9278226,
+          "seconds": 1.5637462139129639,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 2,
+      "transport": "ucxx",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 1.5623574256896973,
+      "aggregate_GiB_s": 5.120467230133609,
+      "start_skew_s": 6.699562072753906e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683255.7962353,
+          "end": 1789683257.3111985,
+          "seconds": 1.514963150024414,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683255.7963023,
+          "end": 1789683257.3585927,
+          "seconds": 1.5622904300689697,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 2,
+      "transport": "http",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 3.5619254112243652,
+      "aggregate_GiB_s": 2.2459762842844326,
+      "start_skew_s": 5.602836608886719e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683260.2262542,
+          "end": 1789683263.7881796,
+          "seconds": 3.5619254112243652,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683260.2263103,
+          "end": 1789683263.1053116,
+          "seconds": 2.8790013790130615,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 4,
+      "transport": "http",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 7.440789699554443,
+      "aggregate_GiB_s": 2.150309395380182,
+      "start_skew_s": 6.628036499023438e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683266.6606798,
+          "end": 1789683270.3163638,
+          "seconds": 3.655683994293213,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683266.660709,
+          "end": 1789683270.2971828,
+          "seconds": 3.6364738941192627,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683266.6607194,
+          "end": 1789683270.5876136,
+          "seconds": 3.926894187927246,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683266.660746,
+          "end": 1789683274.1014695,
+          "seconds": 7.440723419189453,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 4,
+      "transport": "ucxx",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 3.7712552547454834,
+      "aggregate_GiB_s": 4.242619212758596,
+      "start_skew_s": 3.0279159545898438e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683280.7535095,
+          "end": 1789683282.236715,
+          "seconds": 1.4832055568695068,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683280.7535238,
+          "end": 1789683282.3188577,
+          "seconds": 1.5653338432312012,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683280.7535298,
+          "end": 1789683284.5247548,
+          "seconds": 3.7712249755859375,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683280.7534995,
+          "end": 1789683284.1861885,
+          "seconds": 3.4326889514923096,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 4,
+      "transport": "ucxx",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 4.977799415588379,
+      "aggregate_GiB_s": 3.21427174222704,
+      "start_skew_s": 0.00015163421630859375,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683289.3632336,
+          "end": 1789683290.8678443,
+          "seconds": 1.5046107769012451,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683289.3633544,
+          "end": 1789683290.9759026,
+          "seconds": 1.6125481128692627,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683289.3633852,
+          "end": 1789683291.6103446,
+          "seconds": 2.2469594478607178,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683289.3633568,
+          "end": 1789683294.341033,
+          "seconds": 4.977676153182983,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 4,
+      "transport": "http",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 6.575255632400513,
+      "aggregate_GiB_s": 2.4333654681283736,
+      "start_skew_s": 3.743171691894531e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683299.3063693,
+          "end": 1789683302.8917334,
+          "seconds": 3.5853641033172607,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683299.306374,
+          "end": 1789683302.8720088,
+          "seconds": 3.5656347274780273,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683299.3064067,
+          "end": 1789683303.5166519,
+          "seconds": 4.210245132446289,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683299.3063781,
+          "end": 1789683305.881625,
+          "seconds": 6.575246810913086,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 4,
+      "transport": "http",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 10.753763198852539,
+      "aggregate_GiB_s": 1.487851248361806,
+      "start_skew_s": 2.6702880859375e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683311.110787,
+          "end": 1789683313.9033725,
+          "seconds": 2.792585611343384,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683311.110812,
+          "end": 1789683314.1960022,
+          "seconds": 3.0851902961730957,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683311.1108136,
+          "end": 1789683315.2405012,
+          "seconds": 4.129687547683716,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683311.1108065,
+          "end": 1789683321.86455,
+          "seconds": 10.753743648529053,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 4,
+      "transport": "ucxx",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 3.1153244972229004,
+      "aggregate_GiB_s": 5.135901577592611,
+      "start_skew_s": 0.0002231597900390625,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683329.374485,
+          "end": 1789683330.8214777,
+          "seconds": 1.4469926357269287,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683329.3743079,
+          "end": 1789683330.9591382,
+          "seconds": 1.5848302841186523,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683329.374531,
+          "end": 1789683331.6284919,
+          "seconds": 2.2539608478546143,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683329.3744786,
+          "end": 1789683332.4896324,
+          "seconds": 3.1151537895202637,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 4,
+      "transport": "ucxx",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 2.4357032775878906,
+      "aggregate_GiB_s": 6.568944644129647,
+      "start_skew_s": 2.3126602172851562e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683337.2722583,
+          "end": 1789683338.7712212,
+          "seconds": 1.4989628791809082,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683337.2722707,
+          "end": 1789683338.9182136,
+          "seconds": 1.6459429264068604,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683337.2722497,
+          "end": 1789683339.707953,
+          "seconds": 2.4357032775878906,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683337.2722728,
+          "end": 1789683339.552139,
+          "seconds": 2.2798662185668945,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 4,
+      "transport": "http",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 6.421071290969849,
+      "aggregate_GiB_s": 2.4917960376022137,
+      "start_skew_s": 7.104873657226562e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683344.502599,
+          "end": 1789683347.1661541,
+          "seconds": 2.663555145263672,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683344.5025625,
+          "end": 1789683349.3345413,
+          "seconds": 4.831978797912598,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683344.5026336,
+          "end": 1789683349.0472887,
+          "seconds": 4.544655084609985,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683344.5025969,
+          "end": 1789683350.9236338,
+          "seconds": 6.421036958694458,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 8,
+      "transport": "http",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 10.26489806175232,
+      "aggregate_GiB_s": 3.1174201446027108,
+      "start_skew_s": 0.0010862350463867188,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683356.843741,
+          "end": 1789683361.0341663,
+          "seconds": 4.190425395965576,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683356.8442476,
+          "end": 1789683360.778288,
+          "seconds": 3.9340403079986572,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683356.84458,
+          "end": 1789683360.8243415,
+          "seconds": 3.9797616004943848,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683356.8437357,
+          "end": 1789683361.7479868,
+          "seconds": 4.9042510986328125,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683356.844495,
+          "end": 1789683362.6708653,
+          "seconds": 5.8263702392578125,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683356.8437214,
+          "end": 1789683362.5074677,
+          "seconds": 5.663746356964111,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683356.8443089,
+          "end": 1789683366.7435806,
+          "seconds": 9.899271726608276,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683356.8434937,
+          "end": 1789683367.1083918,
+          "seconds": 10.26489806175232,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 8,
+      "transport": "ucxx",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 37.88447904586792,
+      "aggregate_GiB_s": 0.844673090561879,
+      "start_skew_s": 0.0008611679077148438,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683372.6026146,
+          "end": 1789683375.361137,
+          "seconds": 2.7585222721099854,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683372.6021934,
+          "end": 1789683375.3610873,
+          "seconds": 2.7588939666748047,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683372.6022158,
+          "end": 1789683375.5553412,
+          "seconds": 2.953125476837158,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683372.602591,
+          "end": 1789683375.5425856,
+          "seconds": 2.9399945735931396,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683372.6029396,
+          "end": 1789683375.6224725,
+          "seconds": 3.0195329189300537,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683372.6022367,
+          "end": 1789683377.0030284,
+          "seconds": 4.400791645050049,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683372.6022851,
+          "end": 1789683410.4854043,
+          "seconds": 37.883119106292725,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683372.6030545,
+          "end": 1789683410.4866724,
+          "seconds": 37.883617877960205,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 8,
+      "transport": "ucxx",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 5.124825954437256,
+      "aggregate_GiB_s": 6.2441144898380925,
+      "start_skew_s": 0.0008831024169921875,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683430.257899,
+          "end": 1789683432.9180925,
+          "seconds": 2.66019344329834,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683430.2584662,
+          "end": 1789683432.9203389,
+          "seconds": 2.661872625350952,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683430.258502,
+          "end": 1789683433.200875,
+          "seconds": 2.942373037338257,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683430.2579067,
+          "end": 1789683433.2133179,
+          "seconds": 2.955411195755005,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683430.2586365,
+          "end": 1789683434.428693,
+          "seconds": 4.170056581497192,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683430.25782,
+          "end": 1789683434.4369178,
+          "seconds": 4.179097890853882,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683430.258703,
+          "end": 1789683435.3825407,
+          "seconds": 5.12383770942688,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683430.2579029,
+          "end": 1789683435.3826458,
+          "seconds": 5.1247429847717285,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 8,
+      "transport": "http",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 13.052847623825073,
+      "aggregate_GiB_s": 2.451572325228949,
+      "start_skew_s": 0.0008909702301025391,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683440.3305938,
+          "end": 1789683443.2211552,
+          "seconds": 2.89056134223938,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683440.3309212,
+          "end": 1789683444.6238227,
+          "seconds": 4.292901515960693,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683440.3309357,
+          "end": 1789683444.596065,
+          "seconds": 4.265129327774048,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683440.3305755,
+          "end": 1789683444.4568305,
+          "seconds": 4.126255035400391,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683440.3302867,
+          "end": 1789683445.958319,
+          "seconds": 5.628032207489014,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683440.3311777,
+          "end": 1789683446.061963,
+          "seconds": 5.730785369873047,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683440.3305533,
+          "end": 1789683450.6200345,
+          "seconds": 10.289481163024902,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683440.3309956,
+          "end": 1789683453.3831344,
+          "seconds": 13.052138805389404,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 8,
+      "transport": "http",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 12.08882188796997,
+      "aggregate_GiB_s": 2.647073494551555,
+      "start_skew_s": 0.0011744499206542969,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683463.3375845,
+          "end": 1789683469.0448542,
+          "seconds": 5.707269668579102,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683463.337226,
+          "end": 1789683469.7480512,
+          "seconds": 6.410825252532959,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683463.337549,
+          "end": 1789683467.6301863,
+          "seconds": 4.292637348175049,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683463.338156,
+          "end": 1789683467.5068936,
+          "seconds": 4.1687376499176025,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683463.3384004,
+          "end": 1789683468.6651669,
+          "seconds": 5.326766490936279,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683463.3375733,
+          "end": 1789683468.6345005,
+          "seconds": 5.296927213668823,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683463.3375986,
+          "end": 1789683475.4260478,
+          "seconds": 12.088449239730835,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683463.3383985,
+          "end": 1789683475.0818264,
+          "seconds": 11.743427991867065,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 8,
+      "transport": "ucxx",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 20.994118690490723,
+      "aggregate_GiB_s": 1.5242364050506385,
+      "start_skew_s": 0.0018486976623535156,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683483.100611,
+          "end": 1789683485.752497,
+          "seconds": 2.651885986328125,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683483.101149,
+          "end": 1789683485.7552776,
+          "seconds": 2.6541285514831543,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683483.099901,
+          "end": 1789683486.1283627,
+          "seconds": 3.0284616947174072,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683483.0993004,
+          "end": 1789683486.1157522,
+          "seconds": 3.016451835632324,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683483.099756,
+          "end": 1789683487.2588336,
+          "seconds": 4.1590776443481445,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683483.1005764,
+          "end": 1789683487.2463288,
+          "seconds": 4.145752429962158,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683483.099819,
+          "end": 1789683504.093419,
+          "seconds": 20.993600130081177,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683483.1009142,
+          "end": 1789683504.0926092,
+          "seconds": 20.991694927215576,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 8,
+      "transport": "ucxx",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 5.1243860721588135,
+      "aggregate_GiB_s": 6.244650490691652,
+      "start_skew_s": 0.0009489059448242188,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683522.3772418,
+          "end": 1789683525.02594,
+          "seconds": 2.648698091506958,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683522.3777754,
+          "end": 1789683525.0194833,
+          "seconds": 2.6417078971862793,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683522.377292,
+          "end": 1789683525.3233125,
+          "seconds": 2.9460206031799316,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683522.3776333,
+          "end": 1789683525.317439,
+          "seconds": 2.939805746078491,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683522.3773117,
+          "end": 1789683526.5829873,
+          "seconds": 4.2056756019592285,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683522.3781908,
+          "end": 1789683526.582884,
+          "seconds": 4.20469331741333,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683522.3773174,
+          "end": 1789683527.501628,
+          "seconds": 5.124310493469238,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683522.3780792,
+          "end": 1789683527.5015376,
+          "seconds": 5.123458385467529,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 1,
+      "clients": 8,
+      "transport": "http",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 7.161253452301025,
+      "aggregate_GiB_s": 4.468491474731688,
+      "start_skew_s": 0.0005826950073242188,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683532.2991815,
+          "end": 1789683537.0742943,
+          "seconds": 4.775112867355347,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683532.2995162,
+          "end": 1789683536.960394,
+          "seconds": 4.660877704620361,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683532.2996228,
+          "end": 1789683536.8524728,
+          "seconds": 4.552850008010864,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683532.29915,
+          "end": 1789683536.7357063,
+          "seconds": 4.436556339263916,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683532.299159,
+          "end": 1789683538.4751194,
+          "seconds": 6.175960302352905,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683532.2997327,
+          "end": 1789683538.4657223,
+          "seconds": 6.165989637374878,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683532.2992237,
+          "end": 1789683539.327104,
+          "seconds": 7.027880430221558,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683532.2996397,
+          "end": 1789683539.4604034,
+          "seconds": 7.160763740539551,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 1,
+      "transport": "http",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 2.6465981006622314,
+      "aggregate_GiB_s": 1.511374167086087,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683546.759231,
+          "end": 1789683549.4058292,
+          "seconds": 2.6465981006622314,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 1,
+      "transport": "ucxx",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 1.6642374992370605,
+      "aggregate_GiB_s": 2.403503106878512,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683552.274869,
+          "end": 1789683553.9391065,
+          "seconds": 1.6642374992370605,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 1,
+      "transport": "ucxx",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 1.428239345550537,
+      "aggregate_GiB_s": 2.800651034059097,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683556.8079796,
+          "end": 1789683558.236219,
+          "seconds": 1.428239345550537,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 1,
+      "transport": "http",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 2.859896421432495,
+      "aggregate_GiB_s": 1.3986520525790362,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683561.1022336,
+          "end": 1789683563.96213,
+          "seconds": 2.859896421432495,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 1,
+      "transport": "http",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 2.712076425552368,
+      "aggregate_GiB_s": 1.4748846906795117,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683566.8466475,
+          "end": 1789683569.558724,
+          "seconds": 2.712076425552368,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 1,
+      "transport": "ucxx",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 1.43412184715271,
+      "aggregate_GiB_s": 2.7891632833999127,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683572.428966,
+          "end": 1789683573.863088,
+          "seconds": 1.43412184715271,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 1,
+      "transport": "ucxx",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 1.4369637966156006,
+      "aggregate_GiB_s": 2.7836470267524995,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683576.730228,
+          "end": 1789683578.1671917,
+          "seconds": 1.4369637966156006,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 1,
+      "transport": "http",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 2.64353346824646,
+      "aggregate_GiB_s": 1.513126294048143,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683581.0325687,
+          "end": 1789683583.6761022,
+          "seconds": 2.64353346824646,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 2,
+      "transport": "http",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 2.8583033084869385,
+      "aggregate_GiB_s": 2.7988632193953036,
+      "start_skew_s": 2.384185791015625e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683586.555123,
+          "end": 1789683589.1717446,
+          "seconds": 2.616621494293213,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683586.555147,
+          "end": 1789683589.4134264,
+          "seconds": 2.8582794666290283,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 2,
+      "transport": "ucxx",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 1.7057127952575684,
+      "aggregate_GiB_s": 4.690121351169188,
+      "start_skew_s": 3.218650817871094e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683592.2880912,
+          "end": 1789683593.7429101,
+          "seconds": 1.4548189640045166,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683592.288059,
+          "end": 1789683593.9937718,
+          "seconds": 1.7057127952575684,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 2,
+      "transport": "ucxx",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 1.636035442352295,
+      "aggregate_GiB_s": 4.889869615842542,
+      "start_skew_s": 5.9604644775390625e-06,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683596.8614922,
+          "end": 1789683598.3122919,
+          "seconds": 1.4507997035980225,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683596.861498,
+          "end": 1789683598.4975276,
+          "seconds": 1.6360294818878174,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 2,
+      "transport": "http",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 3.3485989570617676,
+      "aggregate_GiB_s": 2.3890588579229597,
+      "start_skew_s": 1.3113021850585938e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683601.371021,
+          "end": 1789683604.71962,
+          "seconds": 3.3485989570617676,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683601.3710341,
+          "end": 1789683604.2892118,
+          "seconds": 2.918177604675293,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 2,
+      "transport": "http",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 2.8890223503112793,
+      "aggregate_GiB_s": 2.769102841706308,
+      "start_skew_s": 0.00019598007202148438,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683607.5922313,
+          "end": 1789683610.4812536,
+          "seconds": 2.8890223503112793,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683607.5924273,
+          "end": 1789683610.315633,
+          "seconds": 2.723205804824829,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 2,
+      "transport": "ucxx",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 1.5795111656188965,
+      "aggregate_GiB_s": 5.064858149872829,
+      "start_skew_s": 0.0001232624053955078,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683613.3572257,
+          "end": 1789683614.8081658,
+          "seconds": 1.4509401321411133,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683613.357349,
+          "end": 1789683614.9367368,
+          "seconds": 1.579387903213501,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 2,
+      "transport": "ucxx",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 1.5980141162872314,
+      "aggregate_GiB_s": 5.0062135987802865,
+      "start_skew_s": 1.9788742065429688e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683617.8117821,
+          "end": 1789683619.2460053,
+          "seconds": 1.4342231750488281,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683617.811802,
+          "end": 1789683619.4097962,
+          "seconds": 1.597994327545166,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 2,
+      "transport": "http",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 2.7671780586242676,
+      "aggregate_GiB_s": 2.8910318853775845,
+      "start_skew_s": 4.744529724121094e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683622.278337,
+          "end": 1789683624.9878495,
+          "seconds": 2.70951247215271,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683622.2783844,
+          "end": 1789683625.045515,
+          "seconds": 2.7671306133270264,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 4,
+      "transport": "http",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 9.12957239151001,
+      "aggregate_GiB_s": 1.75254648452967,
+      "start_skew_s": 0.0002307891845703125,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683627.9170895,
+          "end": 1789683631.4030883,
+          "seconds": 3.4859988689422607,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683627.9171228,
+          "end": 1789683631.2059216,
+          "seconds": 3.2887988090515137,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683627.9171546,
+          "end": 1789683632.1175785,
+          "seconds": 4.200423955917358,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683627.9169238,
+          "end": 1789683637.0464962,
+          "seconds": 9.12957239151001,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 4,
+      "transport": "ucxx",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 2.502790927886963,
+      "aggregate_GiB_s": 6.392863191936035,
+      "start_skew_s": 0.008722305297851562,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683642.314236,
+          "end": 1789683643.7807796,
+          "seconds": 1.4665436744689941,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683642.3055143,
+          "end": 1789683643.8914607,
+          "seconds": 1.5859463214874268,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683642.3055136,
+          "end": 1789683644.5849993,
+          "seconds": 2.2794857025146484,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683642.3055255,
+          "end": 1789683644.8083045,
+          "seconds": 2.502779006958008,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 4,
+      "transport": "ucxx",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 10.750826358795166,
+      "aggregate_GiB_s": 1.4882576897831232,
+      "start_skew_s": 0.0002834796905517578,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683649.6042993,
+          "end": 1789683651.0542686,
+          "seconds": 1.4499692916870117,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683649.6042535,
+          "end": 1789683651.2286208,
+          "seconds": 1.6243672370910645,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683649.604055,
+          "end": 1789683651.8884284,
+          "seconds": 2.2843735218048096,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683649.6043384,
+          "end": 1789683660.3548813,
+          "seconds": 10.750542879104614,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 4,
+      "transport": "http",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 6.171060562133789,
+      "aggregate_GiB_s": 2.5927472010528487,
+      "start_skew_s": 1.8835067749023438e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683665.3357105,
+          "end": 1789683668.7829084,
+          "seconds": 3.447197914123535,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683665.3357248,
+          "end": 1789683668.3302693,
+          "seconds": 2.994544506072998,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683665.335706,
+          "end": 1789683670.2765045,
+          "seconds": 4.94079852104187,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683665.3357122,
+          "end": 1789683671.5067666,
+          "seconds": 6.171054363250732,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 4,
+      "transport": "http",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 7.689584493637085,
+      "aggregate_GiB_s": 2.080736613693438,
+      "start_skew_s": 0.00041365623474121094,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683677.7737813,
+          "end": 1789683681.2616386,
+          "seconds": 3.4878573417663574,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683677.7741573,
+          "end": 1789683681.1623843,
+          "seconds": 3.3882269859313965,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683677.7738082,
+          "end": 1789683681.8333082,
+          "seconds": 4.059499979019165,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683677.774195,
+          "end": 1789683685.4633658,
+          "seconds": 7.689170837402344,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 4,
+      "transport": "ucxx",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 10.238856315612793,
+      "aggregate_GiB_s": 1.562674531881289,
+      "start_skew_s": 0.0003294944763183594,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683692.2502282,
+          "end": 1789683693.6906538,
+          "seconds": 1.4404256343841553,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683692.2503047,
+          "end": 1789683693.9004877,
+          "seconds": 1.6501829624176025,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683692.2499752,
+          "end": 1789683694.4892704,
+          "seconds": 2.239295244216919,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683692.250304,
+          "end": 1789683702.4888315,
+          "seconds": 10.238527536392212,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 4,
+      "transport": "ucxx",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 5.880728006362915,
+      "aggregate_GiB_s": 2.720751577472736,
+      "start_skew_s": 0.0003800392150878906,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683708.1992679,
+          "end": 1789683709.6435742,
+          "seconds": 1.4443063735961914,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683708.1992793,
+          "end": 1789683709.8351915,
+          "seconds": 1.6359121799468994,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683708.1989207,
+          "end": 1789683710.459092,
+          "seconds": 2.2601711750030518,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683708.1993008,
+          "end": 1789683714.0796487,
+          "seconds": 5.880347967147827,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 4,
+      "transport": "http",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 4.068101406097412,
+      "aggregate_GiB_s": 3.933038634685616,
+      "start_skew_s": 0.000675201416015625,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683719.2333186,
+          "end": 1789683721.9970481,
+          "seconds": 2.7637295722961426,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683719.2326434,
+          "end": 1789683723.3007448,
+          "seconds": 4.068101406097412,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683719.232808,
+          "end": 1789683723.0440135,
+          "seconds": 3.8112053871154785,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683719.2328072,
+          "end": 1789683722.8839905,
+          "seconds": 3.6511833667755127,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 8,
+      "transport": "http",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 9.462674379348755,
+      "aggregate_GiB_s": 3.3817078256265987,
+      "start_skew_s": 0.0008292198181152344,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683727.8350306,
+          "end": 1789683734.4755697,
+          "seconds": 6.640539169311523,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683727.834601,
+          "end": 1789683734.2780178,
+          "seconds": 6.4434168338775635,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683727.8347871,
+          "end": 1789683732.6564958,
+          "seconds": 4.821708679199219,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683727.835384,
+          "end": 1789683731.3299277,
+          "seconds": 3.4945437908172607,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683727.8354301,
+          "end": 1789683734.314746,
+          "seconds": 6.479315757751465,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683727.8348057,
+          "end": 1789683735.16526,
+          "seconds": 7.330454349517822,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683727.8346274,
+          "end": 1789683737.2281432,
+          "seconds": 9.393515825271606,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683727.835401,
+          "end": 1789683737.2972753,
+          "seconds": 9.46187424659729,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 8,
+      "transport": "ucxx",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 10.43881344795227,
+      "aggregate_GiB_s": 3.065482505224507,
+      "start_skew_s": 0.000982522964477539,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683745.3683927,
+          "end": 1789683747.2277167,
+          "seconds": 1.8593239784240723,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683745.3679945,
+          "end": 1789683748.0319529,
+          "seconds": 2.6639583110809326,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683745.3685122,
+          "end": 1789683748.3460987,
+          "seconds": 2.977586507797241,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683745.3680108,
+          "end": 1789683748.3461838,
+          "seconds": 2.978173017501831,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683745.3678927,
+          "end": 1789683749.4713326,
+          "seconds": 4.103439807891846,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683745.3685722,
+          "end": 1789683749.483823,
+          "seconds": 4.115250825881958,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683745.3680425,
+          "end": 1789683755.8067062,
+          "seconds": 10.438663721084595,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683745.3688753,
+          "end": 1789683754.166128,
+          "seconds": 8.797252655029297,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 8,
+      "transport": "ucxx",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 10.814694166183472,
+      "aggregate_GiB_s": 2.95893711909681,
+      "start_skew_s": 0.0009043216705322266,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683760.7891297,
+          "end": 1789683763.5595412,
+          "seconds": 2.770411491394043,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683760.789459,
+          "end": 1789683762.7291589,
+          "seconds": 1.9396998882293701,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683760.7891355,
+          "end": 1789683763.641226,
+          "seconds": 2.85209059715271,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683760.7894773,
+          "end": 1789683763.6513133,
+          "seconds": 2.8618359565734863,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683760.7895272,
+          "end": 1789683763.6978421,
+          "seconds": 2.9083149433135986,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683760.7891102,
+          "end": 1789683765.0766156,
+          "seconds": 4.287505388259888,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683760.7900145,
+          "end": 1789683771.6038043,
+          "seconds": 10.81378984451294,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683760.7891648,
+          "end": 1789683769.9360402,
+          "seconds": 9.146875381469727,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 8,
+      "transport": "http",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 15.32096815109253,
+      "aggregate_GiB_s": 2.088640853790829,
+      "start_skew_s": 0.0007908344268798828,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683777.2127268,
+          "end": 1789683781.055602,
+          "seconds": 3.8428752422332764,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683777.2130253,
+          "end": 1789683781.063465,
+          "seconds": 3.8504397869110107,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683777.2128763,
+          "end": 1789683780.234936,
+          "seconds": 3.022059679031372,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683777.2132268,
+          "end": 1789683782.3552678,
+          "seconds": 5.142040967941284,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683777.2135177,
+          "end": 1789683782.7117891,
+          "seconds": 5.498271465301514,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683777.2128098,
+          "end": 1789683782.6659489,
+          "seconds": 5.453139066696167,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683777.2129126,
+          "end": 1789683786.0180027,
+          "seconds": 8.805090188980103,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683777.2133038,
+          "end": 1789683792.533695,
+          "seconds": 15.320391178131104,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 8,
+      "transport": "http",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 8.843104839324951,
+      "aggregate_GiB_s": 3.6186385417141294,
+      "start_skew_s": 0.0009086132049560547,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683800.0112648,
+          "end": 1789683804.1011167,
+          "seconds": 4.0898518562316895,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683800.0117996,
+          "end": 1789683803.694097,
+          "seconds": 3.682297468185425,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683800.0116699,
+          "end": 1789683805.0397527,
+          "seconds": 5.028082847595215,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683800.0112991,
+          "end": 1789683803.6335368,
+          "seconds": 3.6222376823425293,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683800.0112875,
+          "end": 1789683805.2706327,
+          "seconds": 5.259345293045044,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683800.0119555,
+          "end": 1789683805.339081,
+          "seconds": 5.327125549316406,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683800.0121734,
+          "end": 1789683808.8543696,
+          "seconds": 8.842196226119995,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683800.0112696,
+          "end": 1789683808.6707313,
+          "seconds": 8.659461736679077,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 8,
+      "transport": "ucxx",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 8.83698844909668,
+      "aggregate_GiB_s": 3.6211431286040723,
+      "start_skew_s": 0.0008237361907958984,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683816.7932541,
+          "end": 1789683819.6407123,
+          "seconds": 2.8474581241607666,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683816.7938025,
+          "end": 1789683819.6459892,
+          "seconds": 2.852186679840088,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683816.7936127,
+          "end": 1789683819.7770522,
+          "seconds": 2.9834394454956055,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683816.7932568,
+          "end": 1789683819.7893207,
+          "seconds": 2.9960639476776123,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683816.793976,
+          "end": 1789683821.0334408,
+          "seconds": 4.23946475982666,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683816.7932758,
+          "end": 1789683821.0333161,
+          "seconds": 4.240040302276611,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683816.7940779,
+          "end": 1789683825.6301188,
+          "seconds": 8.83604097366333,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683816.7932746,
+          "end": 1789683825.6302426,
+          "seconds": 8.836967945098877,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 8,
+      "transport": "ucxx",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 9.210164308547974,
+      "aggregate_GiB_s": 3.4744222717395745,
+      "start_skew_s": 0.0007383823394775391,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683830.7290382,
+          "end": 1789683833.3412337,
+          "seconds": 2.6121954917907715,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683830.7293787,
+          "end": 1789683833.3352818,
+          "seconds": 2.605903148651123,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683830.729054,
+          "end": 1789683833.8292642,
+          "seconds": 3.100210189819336,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683830.7293723,
+          "end": 1789683833.8292243,
+          "seconds": 3.0998520851135254,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683830.7297418,
+          "end": 1789683834.982391,
+          "seconds": 4.252649307250977,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683830.7290614,
+          "end": 1789683834.982309,
+          "seconds": 4.2532477378845215,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683830.7290034,
+          "end": 1789683839.9390504,
+          "seconds": 9.210047006607056,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683830.7294686,
+          "end": 1789683839.9391677,
+          "seconds": 9.209699153900146,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 2,
+      "clients": 8,
+      "transport": "http",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 9.488215923309326,
+      "aggregate_GiB_s": 3.372604529518227,
+      "start_skew_s": 0.0006668567657470703,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683845.0643568,
+          "end": 1789683849.290963,
+          "seconds": 4.226606130599976,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683845.0648642,
+          "end": 1789683849.0515184,
+          "seconds": 3.986654281616211,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683845.0643358,
+          "end": 1789683850.2741873,
+          "seconds": 5.209851503372192,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683845.0646527,
+          "end": 1789683849.5213685,
+          "seconds": 4.456715822219849,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683845.0650027,
+          "end": 1789683850.4212592,
+          "seconds": 5.356256484985352,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683845.0643423,
+          "end": 1789683850.4512432,
+          "seconds": 5.386900901794434,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683845.0643446,
+          "end": 1789683854.351968,
+          "seconds": 9.287623405456543,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683845.0647237,
+          "end": 1789683854.5525517,
+          "seconds": 9.487828016281128,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 1,
+      "transport": "http",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 3.2662830352783203,
+      "aggregate_GiB_s": 1.2246336146613699,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683862.1169028,
+          "end": 1789683865.3831859,
+          "seconds": 3.2662830352783203,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 1,
+      "transport": "ucxx",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 1.4723725318908691,
+      "aggregate_GiB_s": 2.7167037644087726,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683868.2540495,
+          "end": 1789683869.726422,
+          "seconds": 1.4723725318908691,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 1,
+      "transport": "ucxx",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 1.4260990619659424,
+      "aggregate_GiB_s": 2.8048542395686162,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683872.628072,
+          "end": 1789683874.054171,
+          "seconds": 1.4260990619659424,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 1,
+      "transport": "http",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 2.6579043865203857,
+      "aggregate_GiB_s": 1.5049450312381734,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683876.916505,
+          "end": 1789683879.5744095,
+          "seconds": 2.6579043865203857,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 1,
+      "transport": "http",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 2.6764228343963623,
+      "aggregate_GiB_s": 1.4945321600882828,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683882.4417977,
+          "end": 1789683885.1182206,
+          "seconds": 2.6764228343963623,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 1,
+      "transport": "ucxx",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 1.4267008304595947,
+      "aggregate_GiB_s": 2.803671179410085,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683887.9866407,
+          "end": 1789683889.4133415,
+          "seconds": 1.4267008304595947,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 1,
+      "transport": "ucxx",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 1.4237468242645264,
+      "aggregate_GiB_s": 2.809488268440075,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683892.2765682,
+          "end": 1789683893.700315,
+          "seconds": 1.4237468242645264,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 1,
+      "transport": "http",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 2.6419060230255127,
+      "aggregate_GiB_s": 1.5140583976636675,
+      "start_skew_s": 0.0,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683896.567489,
+          "end": 1789683899.209395,
+          "seconds": 2.6419060230255127,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 2,
+      "transport": "http",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 3.4315617084503174,
+      "aggregate_GiB_s": 2.3313000551031253,
+      "start_skew_s": 1.1920928955078125e-06,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683902.0818777,
+          "end": 1789683905.5134382,
+          "seconds": 3.431560516357422,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789683902.0818765,
+          "end": 1789683905.0654259,
+          "seconds": 2.9835493564605713,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 2,
+      "transport": "ucxx",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 1.8834736347198486,
+      "aggregate_GiB_s": 4.247471189682957,
+      "start_skew_s": 2.09808349609375e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683908.3899298,
+          "end": 1789683909.8245928,
+          "seconds": 1.4346630573272705,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789683908.3899508,
+          "end": 1789683910.2734034,
+          "seconds": 1.8834526538848877,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 2,
+      "transport": "ucxx",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 1.6685774326324463,
+      "aggregate_GiB_s": 4.794503295767777,
+      "start_skew_s": 2.9087066650390625e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683913.1514704,
+          "end": 1789683914.6053236,
+          "seconds": 1.4538531303405762,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789683913.1514995,
+          "end": 1789683914.8200479,
+          "seconds": 1.668548345565796,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 2,
+      "transport": "http",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 3.5120768547058105,
+      "aggregate_GiB_s": 2.2778544806845122,
+      "start_skew_s": 1.3113021850585938e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683917.6860704,
+          "end": 1789683920.3378055,
+          "seconds": 2.6517350673675537,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789683917.6860836,
+          "end": 1789683921.1981473,
+          "seconds": 3.51206374168396,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 2,
+      "transport": "http",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 2.774371385574341,
+      "aggregate_GiB_s": 2.8835360837402333,
+      "start_skew_s": 2.1219253540039062e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683924.0686874,
+          "end": 1789683926.7286277,
+          "seconds": 2.659940242767334,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789683924.0686662,
+          "end": 1789683926.8430376,
+          "seconds": 2.774371385574341,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 2,
+      "transport": "ucxx",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 1.6332027912139893,
+      "aggregate_GiB_s": 4.898350678211525,
+      "start_skew_s": 5.650520324707031e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683929.7181523,
+          "end": 1789683931.1502113,
+          "seconds": 1.4320590496063232,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789683929.7182088,
+          "end": 1789683931.351355,
+          "seconds": 1.6331462860107422,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 2,
+      "transport": "ucxx",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 1.6666734218597412,
+      "aggregate_GiB_s": 4.799980545122798,
+      "start_skew_s": 4.7206878662109375e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683934.2231863,
+          "end": 1789683935.6565354,
+          "seconds": 1.4333491325378418,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789683934.2232335,
+          "end": 1789683935.8898597,
+          "seconds": 1.666626214981079,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 2,
+      "transport": "http",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 3.008134603500366,
+      "aggregate_GiB_s": 2.6594554614314574,
+      "start_skew_s": 1.3113021850585938e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683938.7591228,
+          "end": 1789683941.4639223,
+          "seconds": 2.7047994136810303,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789683938.759136,
+          "end": 1789683941.7672575,
+          "seconds": 3.0081214904785156,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 4,
+      "transport": "http",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 4.707204580307007,
+      "aggregate_GiB_s": 3.399044959069204,
+      "start_skew_s": 0.0001900196075439453,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683944.6503594,
+          "end": 1789683947.2600756,
+          "seconds": 2.6097161769866943,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789683944.6503084,
+          "end": 1789683947.9330983,
+          "seconds": 3.282789945602417,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789683944.6504717,
+          "end": 1789683949.357513,
+          "seconds": 4.707041263580322,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683944.6504984,
+          "end": 1789683948.100623,
+          "seconds": 3.450124502182007,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 4,
+      "transport": "ucxx",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 6.584017038345337,
+      "aggregate_GiB_s": 2.4301273685678435,
+      "start_skew_s": 0.0003113746643066406,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683954.1505473,
+          "end": 1789683955.6027725,
+          "seconds": 1.4522252082824707,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789683954.1502945,
+          "end": 1789683955.7778118,
+          "seconds": 1.6275172233581543,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789683954.150557,
+          "end": 1789683956.8943794,
+          "seconds": 2.7438223361968994,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683954.150606,
+          "end": 1789683960.7343116,
+          "seconds": 6.58370566368103,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 4,
+      "transport": "ucxx",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 4.800354242324829,
+      "aggregate_GiB_s": 3.3330873498725673,
+      "start_skew_s": 0.0004169940948486328,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683965.707231,
+          "end": 1789683967.1901832,
+          "seconds": 1.4829521179199219,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789683965.7069187,
+          "end": 1789683967.3688571,
+          "seconds": 1.6619384288787842,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789683965.706814,
+          "end": 1789683968.1236129,
+          "seconds": 2.4167988300323486,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683965.70696,
+          "end": 1789683970.5071683,
+          "seconds": 4.800208330154419,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 4,
+      "transport": "http",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 5.170304775238037,
+      "aggregate_GiB_s": 3.0945951342420375,
+      "start_skew_s": 5.435943603515625e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683975.5061722,
+          "end": 1789683978.207846,
+          "seconds": 2.701673746109009,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789683975.5061972,
+          "end": 1789683978.5900497,
+          "seconds": 3.083852529525757,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789683975.5062265,
+          "end": 1789683980.676477,
+          "seconds": 5.170250415802002,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683975.5062122,
+          "end": 1789683979.8362398,
+          "seconds": 4.3300275802612305,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 4,
+      "transport": "http",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 5.211604356765747,
+      "aggregate_GiB_s": 3.0700718828029743,
+      "start_skew_s": 0.0003333091735839844,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683987.2906635,
+          "end": 1789683989.9797783,
+          "seconds": 2.689114809036255,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789683987.2909489,
+          "end": 1789683990.4695685,
+          "seconds": 3.178619623184204,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789683987.2908103,
+          "end": 1789683992.5022678,
+          "seconds": 5.2114574909210205,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683987.2909968,
+          "end": 1789683991.3688116,
+          "seconds": 4.077814817428589,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 4,
+      "transport": "ucxx",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 5.827509880065918,
+      "aggregate_GiB_s": 2.745598090658066,
+      "start_skew_s": 0.0006008148193359375,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789683997.294234,
+          "end": 1789683998.7695613,
+          "seconds": 1.4753272533416748,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789683997.2936332,
+          "end": 1789683998.946417,
+          "seconds": 1.6527838706970215,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789683997.2939036,
+          "end": 1789683999.5692394,
+          "seconds": 2.2753357887268066,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789683997.293934,
+          "end": 1789684003.121143,
+          "seconds": 5.827208995819092,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 4,
+      "transport": "ucxx",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 5.583754062652588,
+      "aggregate_GiB_s": 2.865455716794075,
+      "start_skew_s": 7.534027099609375e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684008.075278,
+          "end": 1789684009.5257015,
+          "seconds": 1.4504234790802002,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684008.0753188,
+          "end": 1789684009.733523,
+          "seconds": 1.6582040786743164,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684008.0753224,
+          "end": 1789684010.3643684,
+          "seconds": 2.289046049118042,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684008.0753534,
+          "end": 1789684013.659032,
+          "seconds": 5.583678722381592,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 4,
+      "transport": "http",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 5.424371242523193,
+      "aggregate_GiB_s": 2.9496506202546455,
+      "start_skew_s": 6.270408630371094e-05,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684018.624883,
+          "end": 1789684021.9930224,
+          "seconds": 3.3681395053863525,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684018.6248975,
+          "end": 1789684021.6388247,
+          "seconds": 3.0139272212982178,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684018.6248941,
+          "end": 1789684022.5297675,
+          "seconds": 3.9048733711242676,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684018.6249456,
+          "end": 1789684024.0492542,
+          "seconds": 5.42430853843689,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 8,
+      "transport": "http",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 7.971224308013916,
+      "aggregate_GiB_s": 4.014439785344971,
+      "start_skew_s": 0.0008003711700439453,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684029.265782,
+          "end": 1789684033.8896887,
+          "seconds": 4.62390661239624,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684029.265298,
+          "end": 1789684032.9166431,
+          "seconds": 3.6513452529907227,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684029.2653804,
+          "end": 1789684033.8977144,
+          "seconds": 4.632333993911743,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684029.265927,
+          "end": 1789684033.6927302,
+          "seconds": 4.426803112030029,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684029.2653604,
+          "end": 1789684034.463871,
+          "seconds": 5.198510646820068,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684029.2659523,
+          "end": 1789684034.782249,
+          "seconds": 5.516296625137329,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684029.2653773,
+          "end": 1789684036.9541376,
+          "seconds": 7.688760280609131,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684029.2660983,
+          "end": 1789684037.2365222,
+          "seconds": 7.970423936843872,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 8,
+      "transport": "ucxx",
+      "repeat": 0,
+      "warmup": true,
+      "seconds": 9.68178939819336,
+      "aggregate_GiB_s": 3.3051741453879653,
+      "start_skew_s": 0.0012226104736328125,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684042.5095665,
+          "end": 1789684045.1037326,
+          "seconds": 2.5941660404205322,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684042.5100975,
+          "end": 1789684045.116248,
+          "seconds": 2.6061503887176514,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684042.5097473,
+          "end": 1789684045.5293162,
+          "seconds": 3.019568920135498,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684042.5093093,
+          "end": 1789684045.5189595,
+          "seconds": 3.009650230407715,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684042.5095754,
+          "end": 1789684046.718325,
+          "seconds": 4.208749532699585,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684042.510185,
+          "end": 1789684046.7182117,
+          "seconds": 4.208026647567749,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684042.5096333,
+          "end": 1789684052.1909757,
+          "seconds": 9.681342363357544,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684042.510532,
+          "end": 1789684052.1910987,
+          "seconds": 9.680566787719727,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 8,
+      "transport": "ucxx",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 5.278232574462891,
+      "aggregate_GiB_s": 6.062635465292337,
+      "start_skew_s": 0.0005271434783935547,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684057.2898486,
+          "end": 1789684059.9031615,
+          "seconds": 2.6133129596710205,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684057.2901402,
+          "end": 1789684059.9033003,
+          "seconds": 2.6131601333618164,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684057.2901719,
+          "end": 1789684060.44131,
+          "seconds": 3.1511380672454834,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684057.289835,
+          "end": 1789684060.4284675,
+          "seconds": 3.1386325359344482,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684057.290112,
+          "end": 1789684061.5541017,
+          "seconds": 4.263989686965942,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684057.2898076,
+          "end": 1789684061.5648706,
+          "seconds": 4.2750630378723145,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684057.2900674,
+          "end": 1789684062.5678773,
+          "seconds": 5.2778098583221436,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684057.2896447,
+          "end": 1789684062.5677655,
+          "seconds": 5.278120756149292,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 8,
+      "transport": "http",
+      "repeat": 1,
+      "warmup": false,
+      "seconds": 8.71347165107727,
+      "aggregate_GiB_s": 3.6724742193937994,
+      "start_skew_s": 0.0008776187896728516,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684067.3524985,
+          "end": 1789684071.099044,
+          "seconds": 3.7465455532073975,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684067.3522236,
+          "end": 1789684071.0964289,
+          "seconds": 3.7442052364349365,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684067.3528075,
+          "end": 1789684071.7264998,
+          "seconds": 4.373692274093628,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684067.352445,
+          "end": 1789684072.3091934,
+          "seconds": 4.9567484855651855,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684067.3524747,
+          "end": 1789684073.2625656,
+          "seconds": 5.910090923309326,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684067.3531013,
+          "end": 1789684072.815303,
+          "seconds": 5.462201833724976,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684067.3529103,
+          "end": 1789684074.4540434,
+          "seconds": 7.101133108139038,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684067.3524766,
+          "end": 1789684076.0656953,
+          "seconds": 8.713218688964844,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 8,
+      "transport": "http",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 7.551647901535034,
+      "aggregate_GiB_s": 4.2374857007694064,
+      "start_skew_s": 0.0016889572143554688,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684081.3292384,
+          "end": 1789684085.43149,
+          "seconds": 4.1022515296936035,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684081.329569,
+          "end": 1789684085.2750936,
+          "seconds": 3.9455244541168213,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684081.329704,
+          "end": 1789684086.072155,
+          "seconds": 4.742450952529907,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684081.330272,
+          "end": 1789684086.103607,
+          "seconds": 4.773334980010986,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684081.329757,
+          "end": 1789684088.8808863,
+          "seconds": 7.551129341125488,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684081.3304288,
+          "end": 1789684086.8442135,
+          "seconds": 5.513784646987915,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684081.329818,
+          "end": 1789684087.165344,
+          "seconds": 5.835525989532471,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684081.3309274,
+          "end": 1789684086.7866418,
+          "seconds": 5.455714464187622,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 8,
+      "transport": "ucxx",
+      "repeat": 2,
+      "warmup": false,
+      "seconds": 21.060277938842773,
+      "aggregate_GiB_s": 1.5194481332547098,
+      "start_skew_s": 0.0010955333709716797,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684094.8081553,
+          "end": 1789684097.398872,
+          "seconds": 2.590716600418091,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684094.808681,
+          "end": 1789684097.40236,
+          "seconds": 2.5936789512634277,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684094.8087704,
+          "end": 1789684097.7853203,
+          "seconds": 2.9765498638153076,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684094.8081534,
+          "end": 1789684097.772984,
+          "seconds": 2.9648306369781494,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684094.8084354,
+          "end": 1789684099.1481578,
+          "seconds": 4.339722394943237,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684094.8078046,
+          "end": 1789684099.1480393,
+          "seconds": 4.340234756469727,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684094.8089,
+          "end": 1789684115.8680825,
+          "seconds": 21.0591824054718,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684094.8081882,
+          "end": 1789684113.0729787,
+          "seconds": 18.264790534973145,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 8,
+      "transport": "ucxx",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 11.560362339019775,
+      "aggregate_GiB_s": 2.768079326717136,
+      "start_skew_s": 0.0009605884552001953,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684127.6220992,
+          "end": 1789684130.2191036,
+          "seconds": 2.5970044136047363,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684127.6226654,
+          "end": 1789684130.2147481,
+          "seconds": 2.5920827388763428,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684127.622638,
+          "end": 1789684130.9729557,
+          "seconds": 3.3503177165985107,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684127.6220825,
+          "end": 1789684130.9873745,
+          "seconds": 3.3652920722961426,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684127.6224668,
+          "end": 1789684131.9376354,
+          "seconds": 4.315168619155884,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684127.6218035,
+          "end": 1789684131.9267619,
+          "seconds": 4.304958343505859,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684127.622764,
+          "end": 1789684139.1820333,
+          "seconds": 11.559269189834595,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684127.621941,
+          "end": 1789684139.1821659,
+          "seconds": 11.560224771499634,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "middles": 4,
+      "clients": 8,
+      "transport": "http",
+      "repeat": 3,
+      "warmup": false,
+      "seconds": 9.30445122718811,
+      "aggregate_GiB_s": 3.4392141157658247,
+      "start_skew_s": 0.0006639957427978516,
+      "samples": [
+        {
+          "host": "g3118",
+          "client": 0,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684144.268856,
+          "end": 1789684148.0921993,
+          "seconds": 3.823343276977539,
+          "verified": true
+        },
+        {
+          "host": "g3118",
+          "client": 4,
+          "source": "http://10.64.140.119:43141",
+          "start": 1789684144.2685668,
+          "end": 1789684148.347214,
+          "seconds": 4.078647136688232,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 1,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684144.268869,
+          "end": 1789684148.8346004,
+          "seconds": 4.565731525421143,
+          "verified": true
+        },
+        {
+          "host": "g3119",
+          "client": 5,
+          "source": "http://10.64.140.97:44795",
+          "start": 1789684144.2685463,
+          "end": 1789684149.2934265,
+          "seconds": 5.0248801708221436,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 2,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684144.2683609,
+          "end": 1789684150.0001953,
+          "seconds": 5.731834411621094,
+          "verified": true
+        },
+        {
+          "host": "g3097",
+          "client": 6,
+          "source": "http://10.64.140.99:38005",
+          "start": 1789684144.2690089,
+          "end": 1789684150.3135302,
+          "seconds": 6.044521331787109,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 3,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684144.2685835,
+          "end": 1789684152.7156038,
+          "seconds": 8.447020292282104,
+          "verified": true
+        },
+        {
+          "host": "g3099",
+          "client": 7,
+          "source": "http://10.64.140.94:45703",
+          "start": 1789684144.2690248,
+          "end": 1789684153.572812,
+          "seconds": 9.303787231445312,
+          "verified": true
+        }
+      ]
+    }
+  ]
+}
