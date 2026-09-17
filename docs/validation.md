@@ -17,7 +17,19 @@ malformed subscription reloads, publisher replacement, and detaching B without
 rebinding A's middle endpoints.
 
 These results do not establish GPU multi-trainer correctness, RDMA hardware
-throughput, or zero-downtime availability. A separate two-A40 PrimeRL late-publisher test is being developed outside this
-standalone suite. Its harness required fixes for synchronous discovery calls in an
-async loop and optional Slurm metadata inside a clean container. It has not yet
-produced a passing GPU result.
+throughput, or zero-downtime availability. A separate two-A40 PrimeRL late-publisher test passed after correcting its harness's
+discovery call and optional Slurm metadata handling. It used two independent GPU
+allocations on one physical GPU host, a separate CPU coordinator, two CPU middle
+processes, SQLite head discovery, Redis, and a local LiteRegistry gateway.
+
+Publisher A was already serving when B was added to both running sidecars and
+middles. B joined both replicas in 8.55 seconds; A completed five requests during
+joining. Both replicas then served both adapters with distinct log probabilities,
+without an engine or sidecar restart. The 87,319,247-byte adapters came from saved
+training outputs; there were no optimizer steps or simultaneous retained-state
+updates in this test. Initial missing-middle-source errors were retried until the
+middle caches advertised readiness. See [result summary](live-late-publisher.json).
+
+This is external PrimeRL integration evidence, not a test of installing this
+standalone wheel into the running GPU environment. The 127 CPU tests above cover
+the extracted standalone implementation.
