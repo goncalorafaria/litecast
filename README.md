@@ -123,3 +123,14 @@ Tests exercise CPU memory/HTTP transfers, cache eviction, manifests, selective
 transfer, simulated UCXX contracts, real Redis fencing (when `redis-server` is
 available), and two middle processes accepting publishers late. The middle test
 also replaces publisher B and verifies that A keeps its existing endpoints.
+
+## Documentation server
+
+From this repository, run:
+
+```bash
+uv run --extra docs mkdocs serve --dev-addr 127.0.0.1:25439
+```
+
+Open <http://localhost:25439>. The server reloads when documentation changes.
+Build and check the static site with `uv run --extra docs mkdocs build --strict`.

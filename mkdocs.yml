@@ -1,0 +1,36 @@
+site_name: LiteCast
+site_description: Weight distribution with shared middle caches and LiteRegistry discovery
+repo_url: https://github.com/goncalorafaria/litecast
+repo_name: goncalorafaria/litecast
+docs_dir: docs
+site_dir: site
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+plugins:
+  - search
+markdown_extensions:
+  - fenced_code
+  - tables
+  - admonition
+  - pymdownx.superfences
+nav:
+  - Overview: index.md
+  - Shared middles: multiple-publishers.md
+  - Transfer benchmarks: benchmarks.md
+  - Validation: validation.md
